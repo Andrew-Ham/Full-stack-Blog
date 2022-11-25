@@ -1,0 +1,26 @@
+.posts {
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    gap:150px;
+}
+
+.post {
+    display:flex;
+    gap: 50px;
+}
+
+.img {
+    flex: 2;
+}
+
+/* Width 100% means it will be the width of the parent class which is     flex: 1 */
+
+.img img {
+    width:100%;
+}
+
+.content {
+    flex: 3;
+    
+}

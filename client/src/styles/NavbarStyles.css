@@ -1,0 +1,47 @@
+.navbar-container {
+    display: flex;
+    padding: 10px 0px;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 120px;
+}
+
+.links {
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+.link {
+    text-decoration: none;
+    color: black;
+
+}
+
+span {
+    cursor: pointer;
+}
+
+/* The width, height, border-radius creates the circle however the text is not aligned in the middle.  */
+/* To align text to middle we need to use flex, align-items center and justify content center */
+.write {
+    background-color: #b9e7e7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border: 1px solid teal;
+}
+
+.write:hover {
+    color:teal;
+    background-color: white;
+    border: 1px solid teal;
+}
