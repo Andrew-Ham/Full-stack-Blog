@@ -1,0 +1,71 @@
+.writing {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px; 
+}
+
+.writecontents {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.writecontents input{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.writecontents .texteditor {
+    height: 300px;
+    overflow: scroll;
+}
+
+.writecontents .texteditor .editor{
+    height: 100%;
+    border: none;
+    
+}
+
+.writemenu {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.writeitem {
+    border: 1px solid lightblue;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.writebuttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.savedraft{
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+.update {
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.category {
+    color: teal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}

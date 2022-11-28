@@ -1,0 +1,57 @@
+.singlepost {
+    display: flex;
+    gap: 50px;
+}
+
+.singlepost .content {
+    flex: 5;
+    display: flex; 
+    flex-direction: column;
+    gap : 1px;
+}
+
+
+.content img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+.content {
+    display: flex;
+    flex-direction :column;
+    gap: 5px;
+    flex: 5;
+}
+
+.content span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.content p {
+    text-align: justify;
+    font-size : 14px;
+    line-height: 25px;
+}
